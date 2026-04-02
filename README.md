@@ -59,6 +59,7 @@ Raw CSV → EDA → Feature Split → Train/Test Split → Preprocessing Pipelin
 
 ### 1️⃣ Decision Tree Classifier ⭐ Best Model
 
+PrePruning:
 ```python
 dtc_model = DecisionTreeClassifier(
     max_depth=6,
