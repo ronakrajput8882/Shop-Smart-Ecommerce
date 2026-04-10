@@ -160,7 +160,7 @@ def show():
             xaxis_title="Predicted",
             yaxis_title="Actual",
         )
-        fig_cm.update_traces(font_size=20)
+        fig_cm.update_traces(textfont=dict(size=20))
         st.plotly_chart(fig_cm, use_container_width=True)
 
     with col2:

@@ -109,7 +109,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style="text-align:center;font-size:0.8rem;opacity:0.6">
-        Built by <b>Ronak Rajput</b><br>
+        Built by <b>Ronaksinh Rajput</b><br>
         <a href="https://github.com/ronakrajput8882" style="color:#00d2ff">GitHub</a> ·
         <a href="https://www.linkedin.com/in/ronaksinh-rajput8882/" style="color:#00d2ff">LinkedIn</a>
     </div>
@@ -117,10 +117,10 @@ with st.sidebar:
 
 # ── Page Router ───────────────────────────────────────────────────────────────
 if page == "🏠 Home":
-    from pages.home import show; show()
+    from views.home import show; show()
 elif page == "🔮 Predict Intent":
-    from pages.predict import show; show()
+    from views.predict import show; show()
 elif page == "📊 EDA & Insights":
-    from pages.eda import show; show()
+    from views.eda import show; show()
 elif page == "📈 Model Performance":
-    from pages.performance import show; show()
+    from views.performance import show; show()
