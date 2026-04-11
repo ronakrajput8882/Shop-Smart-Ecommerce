@@ -109,7 +109,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style="text-align:center;font-size:0.8rem;opacity:0.6">
-        Built by <b>Ronaksinh Rajput</b><br>
+        Built by <b>@techwithronak</b><br>
         <a href="https://github.com/ronakrajput8882" style="color:#00d2ff">GitHub</a> ·
         <a href="https://www.linkedin.com/in/ronaksinh-rajput8882/" style="color:#00d2ff">LinkedIn</a>
     </div>
